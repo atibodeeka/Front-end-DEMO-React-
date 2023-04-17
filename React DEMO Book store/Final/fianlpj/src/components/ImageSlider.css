@@ -1,0 +1,33 @@
+
+.iimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #666;
+    
+  }
+
+  .iimage img {
+     width: 500px;
+     height: 600px;
+     margin-bottom: 1rem;
+     display: flex;
+    align-items: center;
+  }
+
+  .slider image button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-right: 0.5rem;
+    align-items: center;
+  }
+  
+  .slider image button:hover {
+    background-color: #666;
+  }
+  .h1 {
+    align-items: center;
+    font-size: large;
+  }

@@ -1,0 +1,46 @@
+.shop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f147a;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.shop-header h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.shop-header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shop-header ul {
+  list-style: none;
+  margin: 500;
+  padding: 500;
+}
+
+.shop-header li {
+  margin-left: 100px;
+}
+
+.shop-header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.shop-header h2 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 2rem;
+  position: relative;
+  left: -650px;
+  top: -3px;
+}
